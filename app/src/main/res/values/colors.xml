@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryVariant">#018786</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="colorError">#C51162</color>
+    <color name="colorOnError">#FFFFFF</color>
+
+    <!--  https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4  -->
+    <color name="black_0">#00000000</color>
+    <color name="black_5">#0D000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_45">#73000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_55">#8C000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_65">#A6000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_75">#BF000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_95">#F2000000</color>
+    <color name="black_100">#FF000000</color>
+
+    <color name="white_0">#00FFFFFF</color>
+    <color name="white_5">#0DFFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_25">#40FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_35">#59FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_45">#73FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_55">#8CFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_65">#A6FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_75">#BFFFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_85">#D9FFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_95">#F2FFFFFF</color>
+    <color name="white_100">#FFFFFFFF</color>
+</resources>

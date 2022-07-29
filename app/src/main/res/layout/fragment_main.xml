@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_200"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clipChildren="false">
+
+            <com.mgsoftware.flatframelayout.widget.FlatFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:FlatFrameLayout_borderColor="@color/black"
+                app:FlatFrameLayout_borderWidth="1dp"
+                app:FlatFrameLayout_color="@color/red_500"
+                app:FlatFrameLayout_cornersRadius="8dp"
+                app:FlatFrameLayout_shadowColor="@color/red_700"
+                app:FlatFrameLayout_shadowHeight="4dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="button"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </com.mgsoftware.flatframelayout.widget.FlatFrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.mgsoftware.flatframelayout.widget.FlatFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:FlatFrameLayout_color="@color/light_blue_500"
+                app:FlatFrameLayout_cornersRadius="8dp"
+                app:FlatFrameLayout_shadowColor="@color/light_blue_900"
+                app:FlatFrameLayout_shadowHeight="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingHorizontal="16dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_android_black_24dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="button"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.mgsoftware.flatframelayout.widget.FlatFrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <com.mgsoftware.flatframelayout.widget.FlatFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:FlatFrameLayout_borderColor="@color/black_50"
+                app:FlatFrameLayout_borderWidth="1dp"
+                app:FlatFrameLayout_color="@color/blue_500"
+                app:FlatFrameLayout_shadowColor="@color/black_50"
+                app:FlatFrameLayout_shadowHeight="1dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black_20"
+                    android:fontFamily="monospace"
+                    android:gravity="end"
+                    android:padding="2dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="1"
+                    android:text="5 000 kt"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </com.mgsoftware.flatframelayout.widget.FlatFrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <com.mgsoftware.flatframelayout.widget.FlatFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:FlatFrameLayout_borderWidth="1dp"
+                app:FlatFrameLayout_color="@color/green_500"
+                app:FlatFrameLayout_shadowColor="@color/green_50"
+                app:FlatFrameLayout_shadowHeight="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="16dp">
+
+                    <ImageView
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/ic_android_black_24dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="button"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.mgsoftware.flatframelayout.widget.FlatFrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <com.mgsoftware.flatframelayout.widget.FlatFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:FlatFrameLayout_color="@color/red_500"
+                app:FlatFrameLayout_cornersRadius="8dp"
+                app:FlatFrameLayout_shadowColor="@color/black_50"
+                app:FlatFrameLayout_shadowHeight="1dp">
+
+                <TextView
+                    android:id="@+id/start_free_trial_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingVertical="8dp"
+                    android:paddingStart="40dp"
+                    android:paddingEnd="40dp"
+                    android:text="start 3-day free trial"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </com.mgsoftware.flatframelayout.widget.FlatFrameLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</layout>

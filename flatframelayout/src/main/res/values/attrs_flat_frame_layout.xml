@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlatFrameLayout">
+        <attr name="FlatFrameLayout_color" format="color" />
+        <attr name="FlatFrameLayout_cornersRadius" format="dimension" />
+        <attr name="FlatFrameLayout_shadowColor" format="color" />
+        <attr name="FlatFrameLayout_shadowHeight" format="dimension" />
+        <attr name="FlatFrameLayout_borderColor" format="color" />
+        <attr name="FlatFrameLayout_borderWidth" format="dimension" />
+    </declare-styleable>
+
+</resources>
