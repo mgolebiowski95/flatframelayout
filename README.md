@@ -19,8 +19,8 @@ dependencies {
 }
 ```
 
-## Usage
-
+## Screenshots
+![](https://github.com/mgolebiowski95/flatframelayout/blob/master/screenshots/flatframelayout_preview.gif)
 
 ### Attributes
 | Attribute | Format |
