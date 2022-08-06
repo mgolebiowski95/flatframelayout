@@ -1,5 +1,5 @@
 # flatframelayout
-FlatFrameLayout is writen based on https://github.com/hoang8f/android-flat-button ,but is a layout. You can put whatever you want in it.
+FlatFrameLayout is writen based on https://github.com/hoang8f/android-flat-button, but is a layout. You can put whatever you want in it.
 
 ## Installation
 
